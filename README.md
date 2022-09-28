@@ -1,5 +1,4 @@
-# Curso ASP.NET Core 5 MVC Basico
-
-Projeto desenvolvido no curso publicado na Udemy.
-
-https://www.udemy.com/course/aspnet-core-5-mvc-basico-aprenda-na-pratica
+Projeto Todo! 
+Um projeto em .Net com o intuito da pratica.
+ToDo, você cria uma anotação e pode remover ela se desejar! 
+tem dados de acesso como email e senha na plataforma.
