@@ -1,0 +1,20 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" asp-controller="Home" asp-action="Index">ToDo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Profile" asp-action="Index">Profile</a>
+                </li>
+            </ul>
+            <a asp-controller="Home" asp-action="Logout" class="btn btn-outline-danger my-2 my-sm-0">Logout</a>
+        </div>
+    </nav>
+</header>
